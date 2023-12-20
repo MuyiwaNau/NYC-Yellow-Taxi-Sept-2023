@@ -44,6 +44,10 @@ rate in use.
 Acknowledgments
 New York City's Taxi & Limousine Commission
 
+
+## Resources
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
 ## Visuals 
 
 ### Four Random Categories
