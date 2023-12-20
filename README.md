@@ -48,6 +48,53 @@ New York City's Taxi & Limousine Commission
 ## Resources
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
+## Steps
+
+### Data Acquisition:
+
+Obtain the TLC Trip Record Data from the official sources or relevant databases.
+Ensure you have access to the necessary fields such as pickup/dropoff locations, timestamps, fare details, passenger counts, etc.
+
+### Data Exploration and Understanding:
+Load the data into a DataFrame (using Pandas or a similar tool).
+Explore the structure of the dataset using functions like info(), head(), and describe().
+Identify the data types, missing values, and potential issues.
+
+### Data Cleaning:
+Handle missing values by either removing rows or imputing values.
+Check for outliers and anomalies in the data and decide on appropriate actions.
+Convert data types if necessary (e.g., datetime conversion).
+Remove duplicate records.
+Check for and handle any data inconsistencies or errors.
+
+### Feature Engineering:
+Create new meaningful features based on existing ones (e.g., derive day of the week, hour of the day from timestamps).
+Encode categorical variables if needed.
+Normalize or scale numerical features.
+Consider creating additional features based on domain knowledge.
+
+### Data Visualization:
+Create visualizations (e.g., histograms, scatter plots, heatmaps) to understand the distribution of key variables.
+Explore relationships between variables to gain insights.
+Visualize geographical patterns using maps for pickup and dropoff locations.
+
+### Descriptive Statistics:
+Calculate summary statistics to get an overview of key metrics (average fare, trip duration, etc.).
+
+### Time-Series Analysis:
+If the data includes timestamps, conduct a time-series analysis to understand temporal patterns.
+Explore trends, seasonality, and any recurring patterns over time.
+
+### Machine Learning Modeling:
+Depending on the objectives, create models for tasks such as fare prediction, trip duration prediction, or clustering based on trip characteristics.
+Split the data into training and testing sets.
+Choose appropriate models (e.g., regression, clustering) and train them on the training set.
+
+### Model Evaluation and Validation:
+Evaluate model performance using metrics such as Mean Squared Error (MSE) for regression or silhouette score for clustering.
+Validate models on the testing set to ensure generalization.
+
+
 ## Visuals 
 
 ### Four Random Categories
